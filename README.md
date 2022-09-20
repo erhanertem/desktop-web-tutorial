@@ -7,6 +7,7 @@
 ### **Objective:** Clarify subjects and seek for newer tips/information/tricks
 
 - JS DOM Manipulation (attributes, data attributes, nonstandard attributes)
+- JS DOM Traversal
 
 ---
 

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="script.js"></script>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 62.5%;
+      }
+      body {
+        padding: 30rem;
+        font-family: 'Rubik', sans-serif;
+        line-height: 1;
+        font-weight: 400;
+        color: #555;
+      }
+      .grandparent {
+        background-color: hsl(0, 50%, 50%);
+        width: 50rem;
+        height: 50rem;
+        border: 3px solid #444;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5rem;
+      }
+      .parent {
+        background-color: hsl(100, 50%, 50%);
+        border: 3px solid #444;
+        width: 40rem;
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+      }
+      .child {
+        background-color: hsl(200, 50%, 50%);
+        border: 3px solid #444;
+        width: 15rem;
+        height: 10rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grandparent" id="grandparent-id">
+      <div class="parent">
+        <div class="child" id="select-me"></div>
+        <div class="child"></div>
+      </div>
+      <div class="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+      </div>
+    </div>
+  </body>
+</html>
