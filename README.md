@@ -8,6 +8,11 @@
 
 - JS DOM Manipulation (attributes, data attributes, nonstandard attributes)
 - JS DOM Traversal
+- JS DOM Even Listeners
+  - Even capturing and event bubbling
+  - removeEventListener, addEventListener
+  - Event delegation
+    - Globalized eventlistener with matches() check method
 
 ---
 
